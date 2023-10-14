@@ -26,7 +26,7 @@ You may also see any lint errors in the console.
 
 
 ## Screenshot url for  both table
-[Screenshot-39.png](https://postimg.cc/MXGg7fyS)
+[![Screenshot-2.png](https://i.postimg.cc/BQthC0r4/Screenshot-2.png)](https://postimg.cc/YhKfpJ2s)
 
 ### `yarn test`
 
