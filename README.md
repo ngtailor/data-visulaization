@@ -5,12 +5,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
  ## Project setup
- 1. first  clone this project  on  ypur  local system by git bash  
+ 1. first  clone this project  on  your  local system by git bash  
    git clone https://github.com/ngtailor/data-visulaization.git
 
-2. open project on vs code studio and open terminal and follow the below instruction 
+2. open the project on vs code studio and open terminal and follow the below instruction 
 
-  In the project directory run commnad in terminal for install yarn
+  In the project directory run command in terminal to install yarn
   
   yarn i -g
 
@@ -23,6 +23,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+## Screenshot url for  both table
+[![Screenshot-2.png](https://i.postimg.cc/BQthC0r4/Screenshot-2.png)](https://postimg.cc/YhKfpJ2s)
 
 ### `yarn test`
 
