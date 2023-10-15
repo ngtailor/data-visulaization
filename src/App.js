@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 import {dataSet} from "./utils/WineDataset"
 
 function App() {
- 
+ // use set for unique class 
 	let uniqueClasses = [...new Set(dataSet().map((entry) => entry.Class))];
  
     function calculateStatistics(){
@@ -13,6 +13,7 @@ function App() {
         let flavanoidsData = dataSet()
           .filter((entry) => entry.Class === className)
           .map((entry) => parseFloat(entry.Flavanoids));
+
           //  call function for mean ,median and mode
         let mean = calculateMean(flavanoidsData);
         let median = calculateMedian(flavanoidsData);
@@ -109,6 +110,7 @@ function App() {
         let gammaData = updatedDataset
           .filter((entry) => entry.Class === className)
           .map((entry) => entry.Gamma);
+          // claculate mean,median ,mode
         let mean = calculateMean(gammaData);
         let median = calculateMedian(gammaData);
         let mode = calculateMode(gammaData);
