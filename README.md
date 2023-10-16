@@ -27,7 +27,14 @@ You may also see any lint errors in the console.
 
 ## Screenshot url for  both table
 All three class types in each table screenshot added 
-[![Screenshot-6.png](https://i.postimg.cc/0jT6z97D/Screenshot-6.png)](https://postimg.cc/FkxFq5WH)
+ first screenshot  for mean, median, and mode  display rounded off to 2 decimal
+places.
+[![Screenshot-7.png](https://i.postimg.cc/wBWpzvQz/Screenshot-7.png)](https://postimg.cc/hJ7wbKYZ)
+
+ second screenshot  for mean, median, and mode  display rounded off to 3 decimal
+places.
+
+[![Screenshot-8.png](https://i.postimg.cc/Dw9GgvX2/Screenshot-8.png)](https://postimg.cc/XrgXN0Lh)
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
