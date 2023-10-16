@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 2. open the project on vs code studio and open terminal and follow the below instruction 
 
-  In the project directory run command in terminal to install yarn
+  In the project directory run the command in the terminal to install the yarn
   
   yarn i -g
 
@@ -26,8 +26,10 @@ You may also see any lint errors in the console.
 
 
 ## Screenshot url for  both table
+All three class types in each table screenshot added 
 [![Screenshot-2.png](https://i.postimg.cc/BQthC0r4/Screenshot-2.png)](https://postimg.cc/YhKfpJ2s)
-
+[![Screenshot-4.png](https://i.postimg.cc/WbY05Rzg/Screenshot-4.png)](https://postimg.cc/PPZLqRm5)
+[![Screenshot-5.png](https://i.postimg.cc/KY2jNQPt/Screenshot-5.png)](https://postimg.cc/xX69jvFd)
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
