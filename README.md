@@ -27,7 +27,7 @@ You may also see any lint errors in the console.
 
 ## Screenshot url for  both table
 All three class types in each table screenshot added 
-[![Screenshot-6.png](https://i.postimg.cc/0jT6z97D/Screenshot-6.png)](https://postimg.cc/FkxFq5WH)
+[![Screenshot-7.png](https://i.postimg.cc/wBWpzvQz/Screenshot-7.png)](https://postimg.cc/hJ7wbKYZ)
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
