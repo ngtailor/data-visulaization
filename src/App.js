@@ -57,30 +57,36 @@ function App() {
     function renderStatisticsTable(){
       return (
         <>
-          <table style={{border:'1px solid black'}}>
+          <table style={{border:'1px solid black',marginLeft:'15cm',marginTop:'1cm',}}>
             <tr style={{border:'1px solid black'}}>
               <td style={{border:'1px solid black',padding:'5px 5px'}}>Measure</td>
-              {dataSet().map((item,i)=>{
-                return  <td style={{border:'1px solid black',padding:'5px 5px'}}> {"class "+item.Alcohol}</td>
-              })}
+           
+                 <td style={{border:'1px solid black',padding:'5px 5px'}}> {"classn 1  "}</td>
+                 <td style={{border:'1px solid black',padding:'5px 5px'}}> {"classn 2 "}</td>
+                 <td style={{border:'1px solid black',padding:'5px 5px'}}> {"classn 3  "}</td>
+           
             </tr>
             <tr>
               <td style={{border:'1px solid black',padding:'5px 5px'}}>Flavanoids Mean</td>
-              {dataSet().map((item,i)=>{
-                return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mean}</td>
-              })}
+             
+                  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mean}</td>
+                  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mean}</td>
+                  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mean}</td>
+          
             </tr>
             <tr>
               <td style={{border:'1px solid black',padding:'5px 5px'}}>Flavanoids Median</td>
-              {dataSet().map((item,i)=>{
-                return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.median}</td>
-              })}
+                  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.median}</td>
+                  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.median}</td>
+                  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.median}</td>
             </tr>
             <tr>
               <td style={{border:'1px solid black',padding:'5px 5px'}}>Flavanoids Mode</td>
-              {dataSet().map((item,i)=>{
-                return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mode}</td>
-              })}
+              
+                <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mode}</td>
+                <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mode}</td>
+                <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateStatistics().undefined.mode}</td>
+              
             </tr>
           </table>
         </>
@@ -121,30 +127,35 @@ function App() {
 
   function renderGammaStatsTable(){
     return (
-      <table style={{border:'1px solid black'}}>
+      <table style={{border:'1px solid black', marginLeft:'15cm',marginTop:'1cm'}}>
           <tr >
             <td style={{border:'1px solid black',padding:'5px 5px'}}>Measure</td>
-            {dataSet().map((item,i)=>{
-              return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{item.Alcohol}</td>
-            })}
+            <td style={{border:'1px solid black',padding:'5px 5px'}}> {"classn 1  "}</td>
+                 <td style={{border:'1px solid black',padding:'5px 5px'}}> {"classn 2 "}</td>
+                 <td style={{border:'1px solid black',padding:'5px 5px'}}> {"classn 3  "}</td>
           </tr>
           <tr>
             <td style={{border:'1px solid black',padding:'5px 5px'}}>Gamma Mean</td>
-            {dataSet().map((item,i)=>{
-              return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mean}</td>
-            })}
+          
+            <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mean}</td>
+            <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mean}</td>
+            <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mean}</td>
+           
           </tr>
           <tr>
             <td style={{border:'1px solid black',padding:'5px 5px'}}>Gamma Median</td>
-            {dataSet().map((item,i)=>{
-              return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.median}</td>
-            })}
+             <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.median}</td>
+             <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.median}</td>
+             <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.median}</td>
+          
           </tr>
           <tr>
             <td style={{border:'1px solid black',padding:'5px 5px'}}>Gamma Mode</td>
-            {dataSet().map((item,i)=>{
-              return  <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mode}</td>
-            })}
+           
+              <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mode}</td>
+              <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mode}</td>
+              <td style={{border:'1px solid black',padding:'5px 5px'}}>{calculateGammaStats().undefined.mode}</td>
+           
           </tr>
         </table>
     )
@@ -153,13 +164,13 @@ function App() {
 	return (
 		<Fragment>
 			<div>
-        <h1 style={{textAlign:'center'}}>Data Visualization Task</h1>
-				<button onClick={calculateStatistics}>Calculate Statistics</button>
+        <h1 style={{textAlign:'center',paddingTop:'1cm' }}>Data Visualization Task</h1>
+				<button style={{marginLeft:'15cm'}} onClick={calculateStatistics}>Calculate Statistics</button>
 		    </div> 
 
 			{renderStatisticsTable()} <br/>
       <div>
-				<button onClick={calculateGammaStats}>Calculate Gamma Statistics</button>
+				<button style={{marginLeft:'15cm'}}  onClick={calculateGammaStats}>Calculate Gamma Statistics</button>
 			</div>
 			{renderGammaStatsTable()}
 		</Fragment>
